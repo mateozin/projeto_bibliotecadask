@@ -8,10 +8,10 @@ import numpy as np
 import os
 import time
 import calendar
-def gerar_dados():
+def gerar_dados_med():
     SEED        = 42
-    LINHAS_MES  = 500_000          # 500k por mês → 3 milhões no total
-    PASTA       = "dados"
+    LINHAS_MES  = 500_000          # 500k por mês -> 3 milhões no total
+    PASTA       = "dados_medio"
     CATEGORIAS  = ["Eletrônicos", "Vestuário", "Alimentos", "Móveis", "Esportes", "Beleza"]
     MESES       = ["2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06"]
 
@@ -73,4 +73,4 @@ def gerar_dados():
     print(f"  Tamanho total   : {tamanho_total:.1f} MB")
     print(f"  Tempo           : {total:.1f}s")
 if __name__ == "__main__":
-    gerar_dados()
+    gerar_dados_med()

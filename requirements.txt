@@ -1,0 +1,5 @@
+pandas
+dask[dataframe]
+matplotlib
+numpy
+pyarrow
