@@ -1,4 +1,4 @@
-# projeto_bibliotecadask
+# Projeto Biblioteca Dask
 
 Projeto desenvolvido para comparar o desempenho das bibliotecas **Pandas** e **Dask** no processamento de grandes volumes de dados. O sistema gera conjuntos de dados simulando vendas, realiza análises estatísticas e produz gráficos comparativos de desempenho.
 
