@@ -69,7 +69,7 @@ Cada gráfico apresenta:
 gerar_vendas_pequeno.py
 gerar_vendas_medio.py
 gerar_vendas_grande.py
-gerar_vendas_grandecomp.py
+gerar_vendas_grande_complexo.py
 vendas_dask.py
 
 dados_pequeno/
